@@ -1,0 +1,8 @@
+description: >
+   Implement to provide USI ssd infomation.
+   
+properties:
+    - name: Type
+      type: string
+      description: >
+            ssd interface type include u.2 and m.2
