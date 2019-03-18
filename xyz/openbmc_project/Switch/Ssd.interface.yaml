@@ -1,8 +1,52 @@
 description: >
-   Implement to provide USI ssd infomation.
+   Implement to provide USI SSD infomation.
    
 properties:
     - name: Type
       type: string
       description: >
-            ssd interface type include u.2 and m.2
+            SSD interface type include U.2 and M.2
+    - name: SlotAddr
+      type: uint64
+      description: >
+            SSD slot address,range of values:1-24
+    - name: Status
+      type: string
+      description: >
+            SSD status
+    - name: LinkSpeed
+      type: string
+      description: >
+            SSD link speed
+    - name: LinkWidth
+      type: string
+      description: >
+            SSD negotiated link width
+    - name: LinkStatus
+      type: string
+      description: >
+            SSD link up status
+    - name: ConfigureWidth
+      type: string
+      description: >
+            SSD port configure width
+    - name: Inserted
+      type: string
+      description: >
+            SSD present status
+    - name: PartitionID
+      type: string
+      description: >
+            ID of the partition which contains the current SSD
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
